@@ -1,0 +1,117 @@
+
+    <FrameLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <ImageView
+            android:id="@+id/board"
+            android:layout_width="match_parent"
+            android:layout_height="460dp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:srcCompat="@drawable/b" />
+
+        <ImageView
+            android:id="@+id/a"
+            android:layout_width="119dp"
+            android:layout_height="122dp"
+            android:layout_marginStart="7dp"
+            android:layout_marginTop="45dp"
+            android:onClick="appear"
+            android:src="@drawable/def"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintStart_toStartOf="@+id/board"
+            app:layout_constraintTop_toBottomOf="@+id/board"
+            app:layout_constraintVertical_bias="0.0"
+            app:srcCompat="@drawable/def" />
+
+        <ImageView
+            android:id="@+id/b"
+            android:layout_width="119dp"
+            android:layout_height="122dp"
+            android:layout_marginStart="130dp"
+            android:layout_marginTop="45dp"
+            android:onClick="appear"
+            android:src="@drawable/def"
+            app:srcCompat="@drawable/def" />
+
+        <ImageView
+            android:id="@+id/c"
+            android:layout_width="119dp"
+            android:layout_height="122dp"
+            android:layout_marginStart="256dp"
+            android:layout_marginTop="45dp"
+            android:onClick="appear"
+            android:src="@drawable/def"
+            app:srcCompat="@drawable/def" />
+
+        <ImageView
+            android:id="@+id/d"
+            android:layout_width="119dp"
+            android:layout_height="124dp"
+            android:layout_marginStart="7dp"
+            android:layout_marginTop="165dp"
+            android:onClick="appear"
+            android:src="@drawable/def"
+            app:srcCompat="@drawable/def" />
+
+        <ImageView
+            android:id="@+id/e"
+            android:layout_width="119dp"
+            android:layout_height="124dp"
+            android:layout_marginStart="130dp"
+            android:layout_marginTop="165dp"
+            android:onClick="appear"
+            android:src="@drawable/def"
+            app:srcCompat="@drawable/def" />
+
+        <ImageView
+            android:id="@+id/f"
+            android:layout_width="119dp"
+            android:layout_height="124dp"
+            android:layout_marginStart="256dp"
+            android:layout_marginTop="165dp"
+            android:onClick="appear"
+            android:src="@drawable/def"
+            app:srcCompat="@drawable/def" />
+
+        <ImageView
+            android:id="@+id/g"
+            android:layout_width="119dp"
+            android:layout_height="124dp"
+            android:layout_marginStart="7dp"
+            android:layout_marginTop="290dp"
+            android:onClick="appear"
+            android:src="@drawable/def"
+            app:srcCompat="@drawable/def" />
+
+        <ImageView
+            android:id="@+id/h"
+            android:layout_width="119dp"
+            android:layout_height="124dp"
+            android:layout_marginStart="130dp"
+            android:layout_marginTop="290dp"
+            android:onClick="appear"
+            android:src="@drawable/def"
+            app:srcCompat="@drawable/def" />
+
+        <ImageView
+            android:id="@+id/i"
+            android:layout_width="119dp"
+            android:layout_height="124dp"
+            android:layout_marginStart="255dp"
+            android:layout_marginTop="290dp"
+            android:onClick="appear"
+            android:src="@drawable/def"
+            app:srcCompat="@drawable/def" />
+
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_marginTop="450dp" />
+    </FrameLayout>
+
